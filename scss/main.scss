@@ -1,0 +1,19 @@
+$colors: (
+  primary: #ea3232,
+  accent: #000000,
+  background: #ffffff
+);
+
+// @function color(select) {
+//   @return map-get($colors, select);
+// }
+
+$padding: 15px;
+$margin: 50%;
+
+
+body {
+  background-color: map-get($colors, background);
+  padding: $padding;
+  margin: $margin;
+}
